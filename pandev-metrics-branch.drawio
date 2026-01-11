@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0" version="29.2.7">
+  <diagram id="rkEdv7gy0eVA8eQNEFk3" name="Page-1">
+    <mxGraphModel dx="1368" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="On-Premises" vertex="1">
+          <mxGeometry height="290" width="980" x="730" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-6" parent="PPFbf8OwZxDAlh1jKPY_-24" style="swimlane;whiteSpace=wrap;html=1;" value="stable" vertex="1">
+          <mxGeometry height="200" width="200" x="750" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-38" parent="PPFbf8OwZxDAlh1jKPY_-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="clients hosting" vertex="1">
+          <mxGeometry height="30" width="190" x="5" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-5" parent="PPFbf8OwZxDAlh1jKPY_-24" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;div&gt;prod&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="230" x="375" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-30" parent="PPFbf8OwZxDAlh1jKPY_-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="https://backoffice.pandev.io" vertex="1">
+          <mxGeometry height="30" width="190" x="10" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-10" edge="1" parent="PPFbf8OwZxDAlh1jKPY_-24" source="PPFbf8OwZxDAlh1jKPY_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PPFbf8OwZxDAlh1jKPY_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-2" parent="PPFbf8OwZxDAlh1jKPY_-24" style="swimlane;whiteSpace=wrap;html=1;" value="dev" vertex="1">
+          <mxGeometry height="200" width="260" x="60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-14" parent="PPFbf8OwZxDAlh1jKPY_-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="https://backoffice-dev.pandev.io" vertex="1">
+          <mxGeometry height="30" width="190" x="35" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="SaaS/Cloud" vertex="1">
+          <mxGeometry height="290" width="590" x="730" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-3" parent="PPFbf8OwZxDAlh1jKPY_-27" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;div&gt;cloud-test&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="260" x="60" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-15" parent="PPFbf8OwZxDAlh1jKPY_-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="https://backoffice-cloud-test.pandev.io" vertex="1">
+          <mxGeometry height="30" width="230" x="15" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-4" parent="PPFbf8OwZxDAlh1jKPY_-27" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;div&gt;cloud&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-12" parent="PPFbf8OwZxDAlh1jKPY_-4" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="https://workspace.pandev.io" vertex="1">
+          <mxGeometry height="30" width="170" x="15" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-8" edge="1" parent="PPFbf8OwZxDAlh1jKPY_-27" source="PPFbf8OwZxDAlh1jKPY_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PPFbf8OwZxDAlh1jKPY_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-51" edge="1" parent="1" source="PPFbf8OwZxDAlh1jKPY_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="PPFbf8OwZxDAlh1jKPY_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="feature/PDM-XX" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="oWqmnY9ATojmEelIQMoR-3" edge="1" parent="1" source="PPFbf8OwZxDAlh1jKPY_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPFbf8OwZxDAlh1jKPY_-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="bugfix/PDM-XX" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="oWqmnY9ATojmEelIQMoR-4" edge="1" parent="1" source="PPFbf8OwZxDAlh1jKPY_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="PPFbf8OwZxDAlh1jKPY_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
